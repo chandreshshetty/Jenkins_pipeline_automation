@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="127420" started-at="2019-08-27T08:10:46 IST" finished-at="2019-08-27T08:12:53 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="127420" started-at="2019-08-27T08:10:46 IST" finished-at="2019-08-27T08:12:53 IST">
+      <class name="selenium_testcases.sears_login">
+        <test-method status="PASS" signature="browserInvoke()[pri:0, instance:selenium_testcases.sears_login@4b85880b]" name="browserInvoke" is-config="true" duration-ms="60214" started-at="2019-08-27T08:10:46 IST" finished-at="2019-08-27T08:11:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserInvoke -->
+        <test-method status="PASS" signature="navigatingToOrders()[pri:0, instance:selenium_testcases.sears_login@4b85880b]" name="navigatingToOrders" duration-ms="6220" started-at="2019-08-27T08:11:46 IST" finished-at="2019-08-27T08:11:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigatingToOrders -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:selenium_testcases.sears_login@4b85880b]" name="tearDown" is-config="true" duration-ms="965" started-at="2019-08-27T08:11:53 IST" finished-at="2019-08-27T08:11:54 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="browserInvoke()[pri:0, instance:selenium_testcases.sears_login@4b85880b]" name="browserInvoke" is-config="true" duration-ms="58385" started-at="2019-08-27T08:11:54 IST" finished-at="2019-08-27T08:12:52 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserInvoke -->
+        <test-method status="PASS" signature="navigatingToOverview()[pri:0, instance:selenium_testcases.sears_login@4b85880b]" name="navigatingToOverview" duration-ms="110" started-at="2019-08-27T08:12:52 IST" finished-at="2019-08-27T08:12:52 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigatingToOverview -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:selenium_testcases.sears_login@4b85880b]" name="tearDown" is-config="true" duration-ms="925" started-at="2019-08-27T08:12:52 IST" finished-at="2019-08-27T08:12:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- selenium_testcases.sears_login -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
