@@ -61,7 +61,7 @@ public class sears_login_page extends sears_utility_methods {
 	
 	public void manageMyAccount() throws InterruptedException {
 		Actions action = new Actions(driver);
-		action.moveToElement(driver.findElement(By.id("yourAccount"))).build().perform();
+		driver.findElement(By.id("yourAccount")).click();
 		Thread.sleep(3000);
 		driver.findElement(By.id("myXProfile")).click();
 		//wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//li[@class='overview']")));
