@@ -7,13 +7,9 @@ import java.util.Properties;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
-import org.openqa.selenium.support.FindBy;
-import org.openqa.selenium.support.PageFactory;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
+import org.openqa.selenium.interactions.ClickAction;
 
 import sears_util.sears_utility_methods;
 
@@ -48,6 +44,8 @@ public class sears_login_page extends sears_utility_methods {
 		Thread.sleep(3000);
 		System.out.println("Navigating to login");
 		driver.findElement(By.id("yourAccount")).click();
+		Thread.sleep(2000);
+		driver.findElement(By.xpath("//button[@data-trk='Header>Member Sign In']")).click();
 		Thread.sleep(5000);
 		driver.switchTo().frame(driver.findElement(By.xpath("//div[@id='modalIframe']/iframe[1]")));
 		Thread.sleep(2000);
@@ -60,8 +58,7 @@ public class sears_login_page extends sears_utility_methods {
 	}
 	
 	public void manageMyAccount() throws InterruptedException {
-		Actions action = new Actions(driver);
-		action.moveToElement(driver.findElement(By.id("yourAccount"))).build().perform();
+		driver.findElement(By.id("yourAccount")).click();
 		Thread.sleep(3000);
 		driver.findElement(By.id("myXProfile")).click();
 		//wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//li[@class='overview']")));

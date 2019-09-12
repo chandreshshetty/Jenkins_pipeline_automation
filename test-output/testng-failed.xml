@@ -3,14 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="selenium_testcases.sears_login">
+      <class name="selenium_testcases.sears_overview">
         <methods>
-          <include name="browserInvoke"/>
-          <include name="navigatingToOverview"/>
-          <include name="navigatingToOrders"/>
           <include name="tearDown"/>
+          <include name="sears_overview_page"/>
+          <include name="browserInvoke"/>
         </methods>
-      </class> <!-- selenium_testcases.sears_login -->
+      </class> <!-- selenium_testcases.sears_overview -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

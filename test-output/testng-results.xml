@@ -1,37 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="127420" started-at="2019-08-27T08:10:46 IST" finished-at="2019-08-27T08:12:53 IST">
+  <suite name="Suite" duration-ms="245758" started-at="2019-09-12T20:03:48 IST" finished-at="2019-09-12T20:07:54 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="127420" started-at="2019-08-27T08:10:46 IST" finished-at="2019-08-27T08:12:53 IST">
-      <class name="selenium_testcases.sears_login">
-        <test-method status="PASS" signature="browserInvoke()[pri:0, instance:selenium_testcases.sears_login@4b85880b]" name="browserInvoke" is-config="true" duration-ms="60214" started-at="2019-08-27T08:10:46 IST" finished-at="2019-08-27T08:11:46 IST">
+    <test name="Test" duration-ms="245758" started-at="2019-09-12T20:03:48 IST" finished-at="2019-09-12T20:07:54 IST">
+      <class name="selenium_testcases.sears_orders">
+        <test-method status="PASS" signature="browserInvoke()[pri:0, instance:selenium_testcases.sears_orders@172ca72b]" name="browserInvoke" is-config="true" duration-ms="56540" started-at="2019-09-12T20:05:56 IST" finished-at="2019-09-12T20:06:53 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserInvoke -->
-        <test-method status="PASS" signature="navigatingToOrders()[pri:0, instance:selenium_testcases.sears_login@4b85880b]" name="navigatingToOrders" duration-ms="6220" started-at="2019-08-27T08:11:46 IST" finished-at="2019-08-27T08:11:53 IST">
+        <test-method status="PASS" signature="sears_orders_overview_page()[pri:0, instance:selenium_testcases.sears_orders@172ca72b]" name="sears_orders_overview_page" duration-ms="34" started-at="2019-09-12T20:06:53 IST" finished-at="2019-09-12T20:06:53 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- navigatingToOrders -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:selenium_testcases.sears_login@4b85880b]" name="tearDown" is-config="true" duration-ms="965" started-at="2019-08-27T08:11:53 IST" finished-at="2019-08-27T08:11:54 IST">
+        </test-method> <!-- sears_orders_overview_page -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:selenium_testcases.sears_orders@172ca72b]" name="tearDown" is-config="true" duration-ms="797" started-at="2019-09-12T20:06:53 IST" finished-at="2019-09-12T20:06:54 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="browserInvoke()[pri:0, instance:selenium_testcases.sears_login@4b85880b]" name="browserInvoke" is-config="true" duration-ms="58385" started-at="2019-08-27T08:11:54 IST" finished-at="2019-08-27T08:12:52 IST">
+        <test-method status="PASS" signature="browserInvoke()[pri:0, instance:selenium_testcases.sears_orders@172ca72b]" name="browserInvoke" is-config="true" duration-ms="54305" started-at="2019-09-12T20:06:54 IST" finished-at="2019-09-12T20:07:48 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserInvoke -->
-        <test-method status="PASS" signature="navigatingToOverview()[pri:0, instance:selenium_testcases.sears_login@4b85880b]" name="navigatingToOverview" duration-ms="110" started-at="2019-08-27T08:12:52 IST" finished-at="2019-08-27T08:12:52 IST">
+        <test-method status="PASS" signature="sears_orders_page()[pri:0, instance:selenium_testcases.sears_orders@172ca72b]" name="sears_orders_page" duration-ms="4641" started-at="2019-09-12T20:07:48 IST" finished-at="2019-09-12T20:07:53 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- navigatingToOverview -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:selenium_testcases.sears_login@4b85880b]" name="tearDown" is-config="true" duration-ms="925" started-at="2019-08-27T08:12:52 IST" finished-at="2019-08-27T08:12:53 IST">
+        </test-method> <!-- sears_orders_page -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:selenium_testcases.sears_orders@172ca72b]" name="tearDown" is-config="true" duration-ms="737" started-at="2019-09-12T20:07:53 IST" finished-at="2019-09-12T20:07:54 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- selenium_testcases.sears_login -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      </class> <!-- selenium_testcases.sears_orders -->
+      <class name="selenium_testcases.sears_overview">
+        <test-method status="PASS" signature="browserInvoke()[pri:0, instance:selenium_testcases.sears_overview@1c98290c]" name="browserInvoke" is-config="true" duration-ms="65517" started-at="2019-09-12T20:03:48 IST" finished-at="2019-09-12T20:04:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserInvoke -->
+        <test-method status="PASS" signature="sears_overview_orders_page()[pri:0, instance:selenium_testcases.sears_overview@1c98290c]" name="sears_overview_orders_page" duration-ms="6916" started-at="2019-09-12T20:04:54 IST" finished-at="2019-09-12T20:05:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sears_overview_orders_page -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:selenium_testcases.sears_overview@1c98290c]" name="tearDown" is-config="true" duration-ms="895" started-at="2019-09-12T20:05:01 IST" finished-at="2019-09-12T20:05:01 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="browserInvoke()[pri:0, instance:selenium_testcases.sears_overview@1c98290c]" name="browserInvoke" is-config="true" duration-ms="53933" started-at="2019-09-12T20:05:02 IST" finished-at="2019-09-12T20:05:55 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserInvoke -->
+        <test-method status="PASS" signature="sears_overview_page()[pri:0, instance:selenium_testcases.sears_overview@1c98290c]" name="sears_overview_page" duration-ms="21" started-at="2019-09-12T20:05:55 IST" finished-at="2019-09-12T20:05:55 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sears_overview_page -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:selenium_testcases.sears_overview@1c98290c]" name="tearDown" is-config="true" duration-ms="751" started-at="2019-09-12T20:05:55 IST" finished-at="2019-09-12T20:05:56 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- selenium_testcases.sears_overview -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
