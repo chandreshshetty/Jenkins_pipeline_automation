@@ -20,9 +20,9 @@ public class sears_overview {
 		System.out.println("navigating to sears website");
 		searsLogin.searsNavigation();
 		System.out.println("Login to sears");
-		searsLogin.sears_login();
+		//searsLogin.sears_login();
 		System.out.println("Navigating to manage my account");
-		searsLogin.manageMyAccount();
+		//searsLogin.manageMyAccount();
 	}
 	
 	@Test

@@ -68,7 +68,7 @@ public class sears_login_page extends sears_utility_methods {
 	}
 	
 	public void navigatingToOrderPage() {
-		driver.findElement(By.xpath("//a[@ng-click=\"trackClickAction(true, 'Profile > MD > OC > List View')\"]")).click();
+		//driver.findElement(By.xpath("//a[@ng-click=\"trackClickAction(true, 'Profile > MD > OC > List View')\"]")).click();
 		System.out.println(driver.getTitle());
 	}
 	
